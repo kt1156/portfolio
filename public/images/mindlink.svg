@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="b" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384.15 63.66">
+  <g id="c" data-name="Horizontal_Inverse">
+    <g id="d" data-name="Logo horizontal">
+      <g id="e" data-name="Logo">
+        <g>
+          <path d="M152.71,50.77h-10.22v-19.63l-9.21,11.37h-.81l-9.24-11.37v19.63h-9.92V16.9h9.26l10.41,12.71,10.46-12.71h9.26v33.87Z" style="fill: #fff; stroke-width: 0px;"/>
+          <path d="M169.03,50.77h-10.22V16.9h10.22v33.87Z" style="fill: #fff; stroke-width: 0px;"/>
+          <path d="M211.86,50.77h-9.09l-17.57-18.87v18.87h-10.12V16.9h9.07l17.52,18.77v-18.77h10.19v33.87Z" style="fill: #fff; stroke-width: 0px;"/>
+          <path d="M252.69,34.45c0,3.47-.63,6.26-1.89,8.36s-2.75,3.8-4.46,5.11c-2.43,1.91-5.82,2.86-10.19,2.86h-18.28V16.9h14.08c2.12,0,3.93.11,5.44.33,1.51.22,2.86.53,4.07.93,1.21.4,2.23.85,3.08,1.34s1.6,1.03,2.27,1.6c1.16.95,2.17,2.06,3.04,3.35s1.56,2.78,2.08,4.47c.51,1.69.77,3.54.77,5.52ZM242.3,34.01c0-2.75-.53-4.9-1.58-6.44s-2.31-2.57-3.79-3.09-2.98-.78-4.51-.78h-4.35v20.07h4.35c2.67,0,4.99-.64,6.94-1.91s2.93-3.89,2.93-7.85Z" style="fill: #fff; stroke-width: 0px;"/>
+          <path d="M283.48,50.77h-25.74V16.9h10.22v25.76h15.52v8.11Z" style="fill: #fff; stroke-width: 0px;"/>
+          <path d="M299.68,50.77h-10.22V16.9h10.22v33.87Z" style="fill: #fff; stroke-width: 0px;"/>
+          <path d="M342.52,50.77h-9.09l-17.57-18.87v18.87h-10.12V16.9h9.07l17.52,18.77v-18.77h10.19v33.87Z" style="fill: #fff; stroke-width: 0px;"/>
+          <path d="M384.15,50.77h-12.46l-12.95-15.86v15.86h-10.22V16.9h10.22v15.15l12.27-15.15h11.1l-12.61,15.86,14.66,18.01Z" style="fill: #fff; stroke-width: 0px;"/>
+        </g>
+        <g id="f" data-name="Logo mark">
+          <polygon id="g" data-name="triangle" points="84.9 63.66 84.9 47.75 70.75 63.66 84.9 63.66" style="fill: #039a68; stroke-width: 0px;"/>
+          <polygon id="h" data-name="3" points="84.9 0 84.9 31.83 56.6 63.66 56.6 31.83 84.9 0" style="fill: #039a68; stroke-width: 0px;"/>
+          <polygon id="i" data-name="2" points="56.6 0 56.6 31.83 28.3 63.66 28.3 31.83 56.6 0" style="fill: #039a68; stroke-width: 0px;"/>
+          <polygon id="j" data-name="1" points="28.3 0 28.3 31.83 0 63.66 0 31.83 28.3 0" style="fill: #039a68; stroke-width: 0px;"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
