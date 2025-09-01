@@ -27,7 +27,7 @@ function ExperienceCard({ title, company, date, items, image }: { title: string;
 
 function ProjectCard({ title, description, items, image, children}: { title: string; description: string; items?: string[]; image?: string; children?: React.ReactNode }) {
   return (
-    <div className="p-6 bg-indigo-800 rounded-xl shadow-md hover:scale-105 transition-transform duration-300">
+    <div className="p-6 bg-indigo-900 rounded-xl shadow-md hover:scale-105 transition-transform duration-300">
       <h3 className="text-2xl font-bold mb-2">{title}</h3>
       <p className="text-gray-300">{description}</p>
       <ul className="list-disc list-inside text-gray-300 text-sm">
