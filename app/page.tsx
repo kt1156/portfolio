@@ -5,7 +5,7 @@ import { FiDownload } from "react-icons/fi";
 
 function ExperienceCard({ title, company, date, items, image }: { title: string; company: string; date: string; items: string[]; image?: string }) {
   return (
-    <div className="p-6 bg-gray-900 rounded-xl shadow-md hover:scale-105 transition-transform duration-300 flex flex-col items-start gap-4">
+    <div className="p-6 bg-indigo-800 rounded-xl shadow-md hover:scale-105 transition-transform duration-300 flex flex-col items-start gap-4">
       <h3 className="text-2xl font-bold mb-2">{title}</h3>
       <p className="text-gray-300 mb-1">{company} | {date}</p>
       <ul className="list-disc list-inside text-gray-300 text-sm">
@@ -27,7 +27,7 @@ function ExperienceCard({ title, company, date, items, image }: { title: string;
 
 function ProjectCard({ title, description, items, image, children}: { title: string; description: string; items?: string[]; image?: string; children?: React.ReactNode }) {
   return (
-    <div className="p-6 bg-gray-800 rounded-xl shadow-md hover:scale-105 transition-transform duration-300">
+    <div className="p-6 bg-indigo-800 rounded-xl shadow-md hover:scale-105 transition-transform duration-300">
       <h3 className="text-2xl font-bold mb-2">{title}</h3>
       <p className="text-gray-300">{description}</p>
       <ul className="list-disc list-inside text-gray-300 text-sm">
@@ -139,7 +139,7 @@ export default function Home() {
             <h3 className="text-2xl font-semibold mb-4">Software Development</h3>
             <div className="flex flex-wrap gap-3">
               {["TypeScript", "Python", "C#", "Java", "HTML", "CSS", "JavaScript"].map(skill => (
-                <span key={skill} className="bg-gray-800 px-3 py-1 rounded-full text-sm text-white hover:bg-orange-400 transition-colors">{skill}</span>
+                <span key={skill} className="bg-indigo-800 px-3 py-1 rounded-full text-sm text-white hover:bg-orange-400 transition-colors">{skill}</span>
               ))}
             </div>
           </div>
@@ -149,7 +149,7 @@ export default function Home() {
             <h3 className="text-2xl font-semibold mb-4">Frameworks & Tools</h3>
             <div className="flex flex-wrap gap-3">
               {["React", "Tailwind", "PyTorch", "Scikit-learn", "Pandas", "GitHub", "Azure DevOps", "SQL"].map(skill => (
-                <span key={skill} className="bg-gray-800 px-3 py-1 rounded-full text-sm text-white hover:bg-orange-400 transition-colors">{skill}</span>
+                <span key={skill} className="bg-orange-700 px-3 py-1 rounded-full text-sm text-white hover:bg-orange-400 transition-colors">{skill}</span>
               ))}
             </div>
           </div>
