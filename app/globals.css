@@ -1,15 +1,12 @@
-@import "tailwindcss";
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+/* Tailwind base */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-
+/* Root variables for light/dark mode */
 :root {
   --background: #ffffff;
   --foreground: #171717;
-}
-
-:root {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -19,20 +16,17 @@
   }
 }
 
+/* Body styling */
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
-}
-
-html {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
+/* Animations */
 @layer utilities {
   .fade-in {
     @apply opacity-0;
@@ -45,15 +39,24 @@ html {
   }
 
   @keyframes fadeIn {
-    to { opacity: 1; }
+    to {
+      opacity: 1;
+    }
   }
 
   @keyframes slideUp {
-    to { opacity: 1; transform: translateY(0); }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
 }
 
-/* Fade-in + slide-up animation */
+.animate-fade-slide-up {
+  animation: fadeSlideUp 0.8s ease forwards;
+  opacity: 0;
+}
+
 @keyframes fadeSlideUp {
   0% {
     opacity: 0;
@@ -63,9 +66,4 @@ html {
     opacity: 1;
     transform: translateY(0);
   }
-}
-
-.animate-fade-slide-up {
-  animation: fadeSlideUp 0.8s ease forwards;
-  opacity: 0; /* Start hidden */
 }
